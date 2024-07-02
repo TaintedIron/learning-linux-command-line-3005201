@@ -1,7 +1,11 @@
 {
-    "extensions": [
-      "GitHub.github-vscode-theme"
-    ],
+    "customizations": {
+        "extensions": [
+            "GitHub.github-vscode-theme",
+            "GitHub.copilot",
+            "GitHub.copilot-chat"
+        ]
+    },
     "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
     "postAttachCommand": "git pull --all"
 }
